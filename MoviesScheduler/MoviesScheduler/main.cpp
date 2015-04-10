@@ -68,5 +68,9 @@ int _tmain(int argc, _TCHAR* argv[])
 
 	CMoviesScheduler::PrintTable(matrixMovieHallSchedule, "Movie", "Hall");
 
+
+	std::cout	<< "\nPress any key to exit.\n";
+	std::getchar();
+
 	return 0;
 }
